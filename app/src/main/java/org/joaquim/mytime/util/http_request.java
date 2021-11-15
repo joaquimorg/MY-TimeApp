@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification.util;
+package org.joaquim.mytime.util;
 
 import android.os.AsyncTask;
 

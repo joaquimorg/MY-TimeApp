@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -17,7 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
-import com.atcnetz.de.notification.util.http_request;
+import org.joaquim.mytime.util.http_request;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

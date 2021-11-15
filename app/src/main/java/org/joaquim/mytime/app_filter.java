@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.app.Activity;
 import android.content.Intent;

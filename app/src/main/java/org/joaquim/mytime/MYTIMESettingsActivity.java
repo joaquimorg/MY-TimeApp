@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,7 +14,7 @@ import android.widget.RadioButton;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-public class D6SettingsActivity extends AppCompatActivity {
+public class MYTIMESettingsActivity extends AppCompatActivity {
     private LocalBroadcastManager localBroadcastManager;
     SharedPreferences prefs;
     SharedPreferences.Editor editor;

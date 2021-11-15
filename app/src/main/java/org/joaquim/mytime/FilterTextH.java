@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.text.InputFilter;
 import android.text.Spanned;

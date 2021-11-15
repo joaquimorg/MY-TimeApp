@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -53,7 +53,7 @@ public class Settings extends Activity {
         Button alarm_button = findViewById(R.id.alarmSettingsButtonID);
         alarm_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                    Intent intent = new Intent(Settings.this, D6SettingsActivity.class);
+                    Intent intent = new Intent(Settings.this, MYTIMESettingsActivity.class);
                     startActivityForResult(intent, 34);
 
             }
@@ -63,7 +63,7 @@ public class Settings extends Activity {
         http_settings_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Settings.this, com.atcnetz.de.notification.httplogset.class);
+                Intent intent = new Intent(Settings.this, org.joaquim.mytime.httplogset.class);
                 startActivityForResult(intent, 2);
             }
         });

@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.Manifest;
 import android.app.Activity;
@@ -22,8 +22,8 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 
-import com.atcnetz.de.notification.util.BleUtil;
-import com.atcnetz.de.notification.util.ScannedDevice;
+import org.joaquim.mytime.util.BleUtil;
+import org.joaquim.mytime.util.ScannedDevice;
 
 import java.util.ArrayList;
 import java.util.List;

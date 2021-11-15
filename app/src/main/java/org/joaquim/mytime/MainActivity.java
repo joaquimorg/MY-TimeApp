@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -63,7 +63,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.SettingsButtonID) {
-            Intent intent = new Intent(this, com.atcnetz.de.notification.Settings.class);
+            Intent intent = new Intent(this, org.joaquim.mytime.Settings.class);
             startActivityForResult(intent, 34);
         } else if (v.getId() == R.id.clearLogButtonID) {
             clearLog();
@@ -156,7 +156,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     private AlertDialog buildNotificationServiceAlertDialog() {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-        alertDialogBuilder.setTitle("Welcome to The D6 Notification App");
+        alertDialogBuilder.setTitle("Welcome to the MY-Time App");
         alertDialogBuilder.setMessage("Please allow Notification for This App in the Upcoming window and press the back button");
         alertDialogBuilder.setPositiveButton("Open settings",
                 new DialogInterface.OnClickListener() {
@@ -318,10 +318,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             //Toast.makeText(MainActivity.this, FirmwareVersion, Toast.LENGTH_SHORT).show();
             if (FirmwareVersion.equals("PineTime")){
                 DeviceImageButton.setImageResource(R.drawable.imagepinetime);
-            } else if (FirmwareVersion.equals("P8")){
-                DeviceImageButton.setImageResource(R.drawable.imagep8);
-            } else if (FirmwareVersion.equals("P22")){
-                DeviceImageButton.setImageResource(R.drawable.imagep22);
             } else {
                 DeviceImageButton.setImageResource(R.drawable.nodeviceimage);
             }
@@ -372,10 +368,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             //Toast.makeText(MainActivity.this, FirmwareVersion, Toast.LENGTH_SHORT).show();
             if (FirmwareVersion.equals("PineTime")){
                 DeviceImageButton.setImageResource(R.drawable.imagepinetime);
-            } else if (FirmwareVersion.equals("P8")){
-                DeviceImageButton.setImageResource(R.drawable.imagep8);
-            } else if (FirmwareVersion.equals("P22")){
-                DeviceImageButton.setImageResource(R.drawable.imagep22);
             } else {
                 DeviceImageButton.setImageResource(R.drawable.noimage);
             }

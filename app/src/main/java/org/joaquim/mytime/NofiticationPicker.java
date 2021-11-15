@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.atcnetz.de.notification.util.Apps;
+import org.joaquim.mytime.util.Apps;
 
 import java.util.ArrayList;
 import java.util.Arrays;

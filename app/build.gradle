@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId "com.atcnetz.de.notification"
+        applicationId "org.joaquim.notification"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 78

@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
@@ -30,9 +30,9 @@ import android.os.Vibrator;
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.atcnetz.de.notification.util.BleUtil;
-import com.atcnetz.de.notification.util.http_request;
-import com.atcnetz.de.notification.util.ExternalStorage;
+import org.joaquim.mytime.util.BleUtil;
+import org.joaquim.mytime.util.http_request;
+import org.joaquim.mytime.util.ExternalStorage;
 
 import java.io.File;
 import java.io.FileOutputStream;

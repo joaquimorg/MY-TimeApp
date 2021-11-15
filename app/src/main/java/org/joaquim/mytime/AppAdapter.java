@@ -1,4 +1,4 @@
-package com.atcnetz.de.notification;
+package org.joaquim.mytime;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.atcnetz.de.notification.util.Apps;
+import org.joaquim.mytime.util.Apps;
 
 import java.util.List;
 
